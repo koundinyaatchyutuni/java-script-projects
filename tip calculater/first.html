@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <link rel="ja" href="tip calculater\first.js"> -->
 </head>
 
 <body>
-    <form id="form">
+    <form id="form" name="myform" method="GET">
         <!-- <label for="food">enter the cost of food:</label>
         <br> -->
         <input type="text" id="foodAmount" name="food" placeholder="enter the food amount">
@@ -20,8 +21,9 @@
         <br>
         <br>
         <!-- <input type="submit" name="submit" id="sum=bmit button" value="generate"> -->
-        <button>generate</button>
+        <button onclick="fun(this.form)">generate</button>
     </form>
+    <script src="first.js"></script>
 </body>
 
 </html>
